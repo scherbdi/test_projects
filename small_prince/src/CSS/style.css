@@ -1,0 +1,29 @@
+селектор {
+	свойство:значение;
+	свойство:значение;
+	свойство:значение;
+	свойство:значение;
+}
+
+a{
+	color:red;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+	padding: 200px;
+}
+
+.writer{
+	color:green;
+	font-size: 40px;
+}
+
+#begin{
+	color: rgba(50, 235, 235, 0.795);
+	font-size: 50px;
+}
+.text{
+	font-style: italic;
+}
