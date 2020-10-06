@@ -31,9 +31,10 @@ a{
 	font-style: italic;
 }
 .box {
+	position: absolute;
 	display: inline-block;
 	/* box-sizing: border-box; */ /* в начало документа */
-	width: 300px;
+	width: 400px;
 	height: 300px;
 	background-color: darkgray;
 	padding: 20px; /* 1-верх, 2-право, 3-низ, 4-лево  ОТСТУП*/
@@ -42,13 +43,24 @@ a{
 /* 	border-color: black; */
 	border: 3px dashed black;
 	margin: 20px;
+	z-index: 3;
 }
 img{
 	display: block;	
 	margin: 0 auto;
+	position: relative; /* или static,также есть absolut,fixed,INHERIT */
+	/* position absolut работает только внутри блока, у которого стоит position:relative */
+	/* bottom, top, right,left */
+	right:100px;
+	top:0px;
 	}
 
-
+.red {
+	position: absolute;
+	left: 80px;
+	background-color:red;
+	z-index: 4; /* можно ставить отрицательное значение */
+}
 
 
 /* блочные */
