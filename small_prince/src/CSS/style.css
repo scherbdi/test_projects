@@ -31,7 +31,8 @@ a{
 	font-style: italic;
 }
 .box {
-	position: absolute;
+	position: relative;
+	vertical-align: middle;
 	display: inline-block;
 	/* box-sizing: border-box; */ /* в начало документа */
 	width: 400px;
@@ -48,16 +49,21 @@ a{
 img{
 	display: block;	
 	margin: 0 auto;
-	position: relative; /* или static,также есть absolut,fixed,INHERIT */
+	/* position: relative; или static,также есть absolut,fixed,INHERIT */
 	/* position absolut работает только внутри блока, у которого стоит position:relative */
 	/* bottom, top, right,left */
+	/* float: left; */
 	right:100px;
 	top:0px;
 	}
 
 .red {
-	position: absolute;
-	left: 80px;
+	width: 50vw;
+	height: 30vh;
+	position: relative;
+	font-size: 20px;
+	/* height: 100px; */
+	/* left: 700px; */
 	background-color:red;
 	z-index: 4; /* можно ставить отрицательное значение */
 }
