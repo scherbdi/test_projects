@@ -118,7 +118,7 @@ h2.title{
 }
 
 .waiting{
-	height: 604px;
+	min-height: 604px;
 	background-color: #efefef;
 	padding: 85px 0 75px 0;
 }
@@ -150,13 +150,15 @@ h2.title{
 }
 
 .waiting .waiting_wrapper{
+	display: flex;
+	justify-content: space-between;
 	margin-top: 45px;
 }
 
 .waiting .waiting_wrapper .waiting_item{
-	display: inline-block;
-	vertical-align: top;
-	margin: 0 15px;
+/* 	display: inline-block; */
+/* 	vertical-align: top; */
+/* 	margin: 0 15px; */
 	width: 339px;
 	text-align: center;
 }
@@ -172,4 +174,63 @@ h2.title{
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 21px;
+}
+
+.optimization{
+	position: relative;
+	min-height: 550px;
+	padding: 102px 0 107px 0;
+}
+/* .my-flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	/* flex-direction: column; */
+/* 	height: 450px;
+	justify-content: space-around;
+	align-items: center; */
+
+
+/* .my-flex-block{
+	width: 150px;
+	height: 150px;
+	margin: 0 50px;
+	background-color:red;
+	text-align: center;
+	color: #fff; */
+
+.optimization .optimization_header{
+	margin-left: 391px;
+	color: #299cbd;
+	font-family: "Roboto - Black";
+	font-size: 29px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.optimization .optimization_text{
+	margin-top: 25px;
+	margin-left: 391px;
+	color: #4a4a4a;
+	font-family: Roboto;
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 27px;
+	font-family: "roboto light";
+	font-weight: 300px;
+}
+
+.optimization .optimization_text span{
+	font-family: "Roboto - Bold";
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
+
+.optimization .optimization_img{
+	position: absolute;
+	top: 54px;
+	left: 150px;
+	z-index: -1;
+
 }
