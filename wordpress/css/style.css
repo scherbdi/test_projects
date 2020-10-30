@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+html{
+	font-family: 'Roboto', sans-serif;
+}
+
 .container{
 	width: 1140px;
 	margin: 0 auto;
@@ -42,9 +46,8 @@ h2.title{
 
 .title{
 	color: #f9bf3b;
-	font-family: "Roboto - Black";
 	font-size: 41px;
-	font-weight: 400;
+	font-weight: 900;
 	line-height: 24px;
 	text-transform: uppercase;
 	text-align: center;	
@@ -52,9 +55,8 @@ h2.title{
 
 .simple .title_big{
 	color: #ffffff;
-	font-family: "Roboto - Black";
 	font-size: 80px;
-	font-weight: 400;
+	font-weight: 900;
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 21px;
@@ -67,14 +69,12 @@ h2.title{
 	font-size: 21px;
 	font-weight: 300;
 	line-height: 28px;
-	font-family: "Roboto Light";
 	font-weight: 300;
 	text-align: center;
 }
 
 .promo .promo_text span{
 	color: #f9bf3b;
-	font-family: "Roboto - Bold";
 	font-weight: 700;
 }
 
@@ -242,7 +242,7 @@ h2.title{
 .finish{
 	min-height: 447px;
 	padding: 86px 0 79px 0;
-	background: url(/img/bg/plus.jpg) center center /cover no-repeat;
+	background: url(/wordpress/img/bg/plus.jpg) center center /cover no-repeat;
 }
 
 .finish .finish_wrapper{
